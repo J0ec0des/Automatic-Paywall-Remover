@@ -26,6 +26,7 @@ class App:
         self.entry.place(height=10)
         self.entry.pack(pady=5)
         self.entry.focus_set()
+        #button field for initialization of search func
         b = tk.Button(self.root, text = "Find Blur", width = 30, command = self.findblurtext)
         b.pack()
         tk.Label(self.root, text="Make Sure To Enter The Correct URL With https://~").pack(padx=30, pady=30)
