@@ -33,6 +33,7 @@ class App:
         self.root.mainloop()
     
     def findblurtext(self):
+        #function for find blurred text and presenting to user as popup
         link = str(self.entry.get())
         #print(link)
         res = requests.get(link, headers=headers)
