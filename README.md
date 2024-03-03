@@ -1,4 +1,4 @@
-# H3T2Programming Enotes Deblur Tool
+# Enotes Deblur Tool
 *Automatic Blurred Text Viewer* 
 
 ## What does Deblur Tool do?
